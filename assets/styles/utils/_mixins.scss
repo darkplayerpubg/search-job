@@ -1,0 +1,39 @@
+@use "./breakpoints";
+@use "sass:math";
+@use "sass:map";
+
+@mixin paddingRatio($width, $height) {
+  padding-top: calc(#{$height} / #{$width} * 100%);
+}
+
+@mixin fullHD() {
+  @media (min-width: #{map.get($breakpoints-min, fullHD)}px) {
+    @content;
+  }
+}
+@mixin desktop() {
+  @media (max-width: #{map.get($breakpoints-max, desktop)}px) {
+    @content;
+  }
+}
+@mixin tablet() {
+  @media (max-width: #{map.get($breakpoints-max, tablet)}px) {
+    @content;
+  }
+}
+@mixin tabletPortrait() {
+  @media (max-width: #{map.get($breakpoints-max, tabletPortrait)}px) {
+    @content;
+  }
+}
+@mixin mobile() {
+  @media (max-width: #{map.get($breakpoints-max, mobile)}px) {
+    @content;
+  }
+}
+
+@mixin hover() {
+  @media (hover: hover) {
+    @content;
+  }
+}
