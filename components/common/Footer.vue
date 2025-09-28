@@ -9,53 +9,17 @@
       <h4 class="footer__title">
         <span class="highlight">Контактная</span> информация
       </h4>
-      <p class="our-managers">
-        Наши <span class="highlight">менеджеры: </span>
-      </p>
+      <p class="our-managers">Наши <span class="highlight">вакансии: </span></p>
       <div class="contacts-info">
-        <p v-for="item of managers" class="contact-item mb-8 underline">
-          <b>
-            <a class="pulse-icon ad1 _tg" :href="item.link" target="_blank">
-              ━ &nbsp; {{ item.name }}
-            </a>
-          </b>
-        </p>
-      </div>
-      <div class="wrap_some">
-        <div class="contact-item mt80">
-          <p>Почта:</p>
-          &nbsp;
-          <a
-            href="mailto: NDv1saw0rld@gmail.com"
-            class="highlight underline _tg"
-          >
-            NDv1saw0rld@gmail.com
-          </a>
-        </div>
-        <div class="contact-item">
-          <p>Telegram:</p>
-          &nbsp;
-          <a
-            href="https://t.me/BPLimited"
-            target="_blank"
-            class="highlight underline _tg"
-          >
-            @BPLimited
-          </a>
-        </div>
+        <a href="https://t.me/ukrecruitmentt" target="_blank">
+          <CommonButtonWrap text="Посмотреть вакансии" />
+        </a>
       </div>
     </div>
   </footer>
 </template>
 
-<script setup lang="ts">
-const managers = [
-  {
-    link: "",
-    name: "Test",
-  },
-];
-</script>
+<script setup lang="ts"></script>
 
 <style scoped lang="scss">
 .our-managers {
@@ -129,7 +93,7 @@ const managers = [
   font-size: rem(34);
   font-family: "Montserrat-500";
   text-transform: uppercase;
-  margin-top: rem(32);
+  margin-top: rem(16);
   color: var(--c-white);
 
   @include tablet() {
@@ -140,7 +104,7 @@ const managers = [
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 0 0 0 rem(30);
+  margin-top: 1.5rem;
 }
 .contact-item {
   display: flex;

@@ -41,7 +41,7 @@ const SLIDES = [
   {
     id: 2,
     text:
-      "Oilamga Angliyada ishlash imkoniyatini bergani uchun Bland people limited kompaniyasiga rahmat.",
+      "Oilamga Angliyada ishlash imkoniyatini bergani uchun Recruitment UK kompaniyasiga rahmat.",
     image: "/review2.jpg",
   },
   {
@@ -64,7 +64,7 @@ const SLIDES = [
   {
     id: 6,
     text:
-      "Спасибо Ангелине, все быстро и оперативно помогли и правильно подсказали! подавался на срочную визу, через 4 дня пришел положительный ответ, а у меня был еще отказ по Чехии( Все в итоге было отлично, спасибо!",
+      "Спасибо Асель, все быстро и оперативно помогли и правильно подсказали! подавался на срочную визу, через 4 дня пришел положительный ответ, а у меня был еще отказ по Чехии( Все в итоге было отлично, спасибо!",
     image: "/review5.jpg",
   },
 ];

@@ -28,7 +28,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       charset: "utf-8",
-      title: "Bland people limited",
+      title: "Recruitment UK",
       htmlAttrs: {
         lang: "en",
       },
@@ -36,7 +36,7 @@ export default defineNuxtConfig({
         { name: "viewport", content: "width=device-width, initial-scale=1" },
         {
           property: "og:site_name",
-          content: "Bland people limited",
+          content: "Recruitment UK",
         },
         {
           property: "og:type",
@@ -55,29 +55,29 @@ export default defineNuxtConfig({
         {
           hid: "twitter:title",
           property: "twitter:title",
-          content: "Bland people limited",
+          content: "Recruitment UK",
         },
         {
           hid: "twitter:description",
           property: "twitter:description",
           content:
-            "Визовые консультанты, эксперты по туризму и юристы по международному праву 'Bland people limited' всегда окажут квалифицированную помощь и поддержку по вопросам оформления любых типов виз во все стран ы мира, а также в получении временного и постоянного вида на жительство в Европе.",
+            "Визовые консультанты, эксперты по туризму и юристы по международному праву 'Recruitment UK' всегда окажут квалифицированную помощь и поддержку по вопросам оформления любых типов виз во все стран ы мира, а также в получении временного и постоянного вида на жительство в Европе.",
         },
         {
           hid: "title",
           property: "title",
-          content: "Bland people limited",
+          content: "Recruitment UK",
         },
         {
           hid: "description",
           property: "description",
           content:
-            "Визовые консультанты, эксперты по туризму и юристы по международному праву 'Bland people limited' всегда окажут квалифицированную помощь и поддержку по вопросам оформления любых типов виз во все стран ы мира, а также в получении временного и постоянного вида на жительство в Европе.",
+            "Визовые консультанты, эксперты по туризму и юристы по международному праву 'Recruitment UK' всегда окажут квалифицированную помощь и поддержку по вопросам оформления любых типов виз во все стран ы мира, а также в получении временного и постоянного вида на жительство в Европе.",
         },
         {
           name: "keywords",
           content:
-            "visa, Bland people limited, people, bland, работа, виза, заработок, деньги, доллары",
+            "visa, Recruitment UK, people, bland, работа, виза, заработок, деньги, доллары",
         },
       ],
       link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],

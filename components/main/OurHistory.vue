@@ -30,7 +30,7 @@
         лучшие рабочие места за границей. Сопровождаем на всех этапах.
       </p>
       <a
-        href="https://t.me/BPLimited"
+        href="https://t.me/ukrecruitmentt"
         target="_blank"
         class="more-info__link _tg"
       >

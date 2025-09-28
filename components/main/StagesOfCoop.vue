@@ -34,7 +34,7 @@
       </div>
     </div>
     <div class="stages-btn">
-      <a href="https://t.me/BPLimited" target="_blank" class="_tg">
+      <a href="https://t.me/ukrecruitmentt" target="_blank" class="_tg">
         <CommonButtonWrap text="Оставить заявку" dark />
       </a>
     </div>

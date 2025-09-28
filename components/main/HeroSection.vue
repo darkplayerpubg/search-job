@@ -2,14 +2,14 @@
   <section id="main" class="hero">
     <div class="hero-content">
       <a
-        href="https://t.me/BPLimited"
+        href="https://t.me/ukrecruitmentt"
         class="telegram-link _tg"
         target="_blank"
       >
-        <CommonButtonWrap text="Связь со специалистом" />
+        <CommonButtonWrap text="Связь с нами" />
       </a>
       <h1 class="hero__title">
-        Всё о <span class="highlight">"Bland people limited"</span>
+        Всё о <span class="highlight">"Recruitment UK"</span>
       </h1>
       <p class="hero__description">
         Визовая поддержка. Трудоустройство за границей.
@@ -17,7 +17,7 @@
       <div class="hero__details">
         <p class="details-text">
           Визовые консультанты, эксперты по туризму и юристы по международному
-          праву "Bland people limited" всегда окажут квалифицированную помощь и
+          праву "Recruitment UK" всегда окажут квалифицированную помощь и
           поддержку по вопросам оформления любых типов виз во все стран ы мира,
           а также в получении временного и постоянного вида на жительство в
           Европе.
@@ -40,18 +40,23 @@
           <p class="schedule-text"><b>Воскресенье:</b> 10:00 - 19:00</p>
         </div>
         <div class="right-part">
-          <p class="text-about">Наши менеджеры:</p>
-          <div v-for="item of managers" class="wrap-manager-item mb-8">
-            <a class="btn-item _tg" :href="item.link" target="_blank">
-              <ButtonWrap text="Связаться" />
+          <p class="text-about">Наши вакансии:</p>
+          <div class="wrap-manager-item mb-8">
+            <a
+              class="btn-item _tg"
+              href="https://t.me/ukrecruitmentt"
+              target="_blank"
+            >
+              <CommonButtonWrap text="Посмотреть вакансии" />
             </a>
-            <p class="schedule-text underline">
+
+            <!-- <p class="schedule-text underline">
               <b>
                 <a class="pulse-icon ad1 _tg" :href="item.link" target="_blank">
                   @{{ item.name }}
                 </a>
               </b>
-            </p>
+            </p> -->
           </div>
         </div>
       </div>
@@ -59,22 +64,13 @@
   </section>
 </template>
 
-<script setup lang="ts">
-import ButtonWrap from "../common/ButtonWrap.vue";
-
-const managers = [
-  {
-    link: "https://t.me/BPLimited",
-    name: "BPLimited",
-  },
-];
-</script>
+<script setup lang="ts"></script>
 
 <style scoped lang="scss">
 .wrap-manager-item {
   display: flex;
   align-items: center;
-  padding-left: rem(228);
+  justify-content: flex-end;
 
   @include tablet() {
     padding-left: 0;
@@ -163,7 +159,7 @@ const managers = [
 
   @include tablet() {
     right: unset;
-    top: rem(188);
+    top: 14.5rem;
     left: 50%;
     transform: translateX(-50%);
   }

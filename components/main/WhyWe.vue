@@ -64,12 +64,16 @@
       </article>
     </div>
     <div class="btn-wrap">
-      <a class="why-we__link _tg" href="https://t.me/BPLimited" target="_blank">
+      <a
+        class="why-we__link _tg"
+        href="https://t.me/ukrecruitmentt"
+        target="_blank"
+      >
         <CommonButtonWrap text="Детальная информация" dark />
       </a>
       <a
         class="button-certificate _tg"
-        href="/companies_house_document.pdf"
+        href="https://find-and-update.company-information.service.gov.uk/company/05520797"
         target="_blank"
       >
         <CommonButtonWrap dark text="Посмотреть сертификат" />
