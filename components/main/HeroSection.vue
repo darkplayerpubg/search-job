@@ -106,7 +106,7 @@
   letter-spacing: rem(2.5);
 
   @include tablet() {
-    font-size: rem(38);
+    font-size: rem(36);
     text-align: center;
     letter-spacing: unset;
   }
